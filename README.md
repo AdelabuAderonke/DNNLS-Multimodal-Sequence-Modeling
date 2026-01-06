@@ -11,6 +11,11 @@ This repository contains the final assessment for the **Deep Neural Networks and
 The task focuses on **story reasoning**, where a model must understand causal and temporal relationships between events in short stories and generate consistent narrative outcomes.
 
 - Dataset: https://huggingface.co/datasets/daniel3303/StoryReasoning
+- Folder Structure Overview
+
+  - Final_assessment(Base).ipynb: Contains the baseline architecture the original implementation before improvements.
+  - experiment_assessment_updated.ipynb: Contains the improved architecture — with added enhancements like transformer-based encoding and cross-modal attention.
+  - results/ (folder): Stores all experiment outputs including,generated images and text samples, architecture diagrams illustrating both baseline and improved models
 ### Baseline Architecture:
 - Visual Encoder(CNN based image)
 - TextEncoder(LSTM)
